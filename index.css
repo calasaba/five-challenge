@@ -1,0 +1,252 @@
+/*
+* @Author: 85314
+* @Date:   2018-08-24 15:17:41
+* @Last Modified by:   85314
+* @Last Modified time: 2018-08-25 14:32:46
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Times New Roman", Times, serif;
+}
+html,body{
+    height: 100%;
+    font-size: 14px;
+}
+.overflow{
+    overflow: auto;
+}
+ol,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    min-height: 100%;
+    position: relative;
+    /*height: 100%; */
+    /*不能加 height高度，加了实现不了*/
+}
+header{
+    color:#fff;
+    background-color: #5fc0cd;
+    /*background: url('./images/five-bg-img.png') left top no-repeat;    */
+}
+.header-title{
+    /*height: 80px;*/
+    height: 3.773585rem;
+    /*line-height: 80px;*/
+    line-height: 3.773585rem;
+    text-align: center;
+    background-color: #5fc0cd;
+    /*font-size:36px;*/
+    font-size:1.698113rem;
+    /*background: url("../images/five-arrow.png") left center no-repeat;*/
+    /*margin-left:35px;*/
+}
+.header-title a{
+    float: left;
+    /*margin-left:35px;
+    width: 25px;
+    height: 80px;*/
+    margin-left:1.650943rem;
+    width: 1.179245rem;
+    height: 3.773585rem;
+    background: url("./images/five-arrow.png") left center no-repeat;
+    background-size: 1.037736rem 1.745283rem;
+}
+.header-detail{
+    height: 15.471698rem;
+    /*height: 328px;*/
+    /*background-color:#c4c5c8;*/
+    background: url('./images/five-bg-img.png') left top no-repeat;
+    background-size: cover;
+    text-align: center;
+    line-height: 15.471698rem;
+    /*line-height: 328px;*/
+    position: relative;
+}
+.left-img{
+    position: absolute;
+    top: 3.773585rem;
+    left:1.320755rem;
+    /*top: 80px;*/
+    /*left:28px;*/
+    /*width: 169px;*/
+    width: 7.54717rem;
+    height: 7.54717rem;
+}
+.left-img img{
+    /*width: 169px;*/
+    width: 7.54717rem;
+    height: 7.54717rem;
+}
+.right-detail{
+    position: absolute;
+    left:11.226415rem;
+    top:5.660377rem;
+    height: 9.433962rem;
+    /*left:238px;*/
+    /*top:120px;*/
+    /*height: 200px;*/
+}
+.name-year{
+    height: 2.122642rem;
+    line-height: 2.122642rem;
+    font-size: 1.698113rem;
+    /*height: 45px;*/
+    /*line-height: 45px;*/
+    /*font-size: 36px;*/
+}
+.name-year span{
+    float: right;
+    display: block;
+    font-size: 1.320755rem;
+    /*font-size: 28px;*/
+}
+.address{
+    float: left;
+    font-size: 1.132075rem;
+    line-height: 1.132075rem;
+    /*font-size: 24px;*/
+    /*line-height: 24px;*/
+    background: url('./images/five-address.png') left top no-repeat;
+    background-size: 0.849057rem 1.084906rem;
+    /*background-size: 18px 23px;*/
+    padding-left:1.415094rem;
+    margin-top: 0.943396rem;
+    margin-left:0.377358rem;
+    /*padding-left:30px;*/
+    /*margin-top: 20px;*/
+    /*margin-left:8px;*/
+}
+main{
+    padding-bottom: 9.433962rem;
+    /*padding-bottom: 200px;*/
+}
+li{
+    height: 4.669811rem;
+    line-height: 4.669811rem;
+    /*height: 99px;*/
+    /*line-height: 99px;*/
+    border-bottom: 1px #e1e5e7 solid;
+}
+.line{
+   display: inline-block;
+   width: 0.04717rem;
+   height: 1.084906rem;
+   /*width: 1px;*/
+   /*height: 23px;*/
+   background: #ccc;
+}
+.professional p{
+    background: url('./images/five-blue-line.png') left center no-repeat;
+    padding-left: 1.179245rem;
+    margin-left:1.273585rem; 
+    font-size: 1.509434rem;   
+    /*font-size: 32px;*/
+    /*padding-left: 25px;*/
+    /*margin-left:27px;*/
+}
+.working-conditions, .work-seniority, .working-time, .salary,.self-introduction{
+    margin-left: 1.509434rem;
+    font-size:1.509434rem; 
+    /*margin-left: 32px;*/
+    /*font-size:32px; */
+}
+
+.working-conditions a{
+    color: #666666;
+    background: url('./images/five-star.png') left center no-repeat;
+    /*background-size: 24px 23px;*/
+    background-size: 1.132075rem 1.084906rem;
+    padding-left:1.650943rem;
+    margin-left:1.179245rem;
+    /*padding-left:35px;*/
+    /*margin-left:25px;*/
+}
+.work-seniority span, .working-time span, .salary span,.self-introduction span{
+    margin-left:1.179245rem;
+    /*margin-left:25px;*/
+    color: #999999;
+}
+.work-seniority .first-span, .working-time .first-span, .salary .first-span,.self-introduction .first-span{
+    width: 6.226415rem;
+}
+.self-introduction .first-span{
+    max-height: 4.669811rem;
+}
+.work-seniority .last-span, .working-time .last-span{
+    color: #333333;
+}
+.salary .last-span{
+    color: #e26163;
+    font-weight: bold;
+}
+.self-introduction{
+    border: none;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+.self-introduction .last-span{
+    /*display: block;*/
+    /*float: left;*/
+    /*line-height: 1.509434rem;*/
+    font-size: 1.132075rem;
+    /*line-height: 32px;*/
+    /*font-size: 24px;*/
+    height: auto;
+    width: 45%;
+    color: #333333;
+    line-height: 1.320755rem;
+    /*word-wrap:break-word;*/
+}
+.li-line{
+    width: 100vw;
+    height: 1px;
+}
+footer{
+    width: 100vw;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    height: 4.716981rem;
+    /*height: 100px;*/
+}
+/*.push, footer{
+    height: 84px;
+    clear: both;
+}*/
+.message,.tel{
+    width: 33%;
+    height: 3.962264rem;
+    line-height: 3.962264rem;
+    border: 2px solid #5fc0cd;
+    /*width: 308px;*/
+    /*height: 84px;*/
+    /*line-height: 84px;*/
+    text-align: center;
+    font-size:1.603774rem;
+    /*font-size:34px;*/
+    /*-moz-border-radius : 10%;
+    -webkit-border-radius : 10%;
+    -o-border-radius : 10%;
+    -ms-border-radius : 10%;*/
+    border-radius : 4%;
+}
+.message{
+    background: #FFF;
+    color: #5fc0cd;
+    margin-left: 12%;
+    float: left;
+}
+.tel{
+    background: #5fc0cd;
+    color: #FFF;
+    float: right;
+    margin-right: 12%;
+}
